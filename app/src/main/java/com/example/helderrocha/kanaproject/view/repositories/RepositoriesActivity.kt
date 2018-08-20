@@ -1,7 +1,8 @@
-package com.example.helderrocha.kanaproject
+package com.example.helderrocha.kanaproject.view.repositories
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.helderrocha.kanaproject.R
 
 class RepositoriesActivity : AppCompatActivity() {
 
