@@ -60,7 +60,6 @@ class RepositoryListActivity : AppCompatActivity() {
     }
 
     private fun setUpdateAdapter(items: List<Items>){
-        Toast.makeText(this, items.get(1).name, Toast.LENGTH_SHORT).show()
         adapter = RepositoryAdapter(items, { item: Items -> partItemClicked(item) } )
         recyclerView.adapter = adapter
         progressBar.visibility = View.GONE

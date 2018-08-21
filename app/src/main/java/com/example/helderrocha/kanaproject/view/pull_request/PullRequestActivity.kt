@@ -45,7 +45,6 @@ class PullRequestActivity : AppCompatActivity() {
     }
 
     private fun onItemsFetched(pullRequests: List<PullRequest>?) {
-        Log.i("Helder", pullRequests!![0].title)
         adapter = PullAdapter(pullRequests!!, { pullRequest: PullRequest -> partItemClicked(pullRequest) } )
         recyclerViewPullRequests.adapter = adapter
         progressBarPullRequest.visibility = View.GONE
