@@ -6,6 +6,7 @@ data class PullRequest(
         @SerializedName("id") var id: Int?,
         @SerializedName("title") var title: String,
         @SerializedName("user") var user: User,
-        @SerializedName("body") var body:  String
+        @SerializedName("body") var body:  String,
+        @SerializedName("html_url") var html_url:  String
 
 )
